@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order</title>
+    <script src ="script/app.js" > </script> 
+    <link href = "style/order-style.css"  rel ="stylesheet">
+</head>
+<body>
+    <div class="menu-list-div">
+
+        <h1 class="nav-logo">DR</h1>
+        <img src="images/crown-symbol.png" class="crown-img2">
+        <ul class="nav-menu-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </div>
+    <section class="order-calculate">
+
+        <h2> Choose your burger and claculate the price: </h2>
+
+    <table onmouseover="size1(this)" onmouseout="size2(this)">
+        <thead>
+            <th>Burger Name</td>
+            <th>Number of Burgers</td>
+            <th>total</td>            
+        </thead>                
+    </table>
+    <br> 
+    Cost for one burger: <input type="text" value="10" id="cost1" size="2" disabled><br>   
+    <p>
+         Add burger name:  <input type="text">
+    </p>
+    <p>
+        Number of burger: <input type="number" id="q1">
+    </p>
+    <button onclick="addEmployee();" class="cal-btn">Calculate the total amount</button>
+    <h3 id="out"></h3>
+
+    <div class="text-photo">
+
+        <div class="images">
+            <div class="photo">
+                <img src="style/images/bb14.jpg">
+            </div>
+            <div class="photo">
+                <img src="images/bb22.png">
+            </div>
+            <div class="photo">
+                <img src="images/Portobello Lounge _Menu_.jpg">
+            </div>
+    </div>
+    <p class="lor-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Fugiat enim laboriosam placeat ratione obcaecati laudantium inventore neque voluptatem dolore.
+         Ea doloribus laborum, blanditiis unde nam nulla porro iusto. Eos, laboriosam.</p>
+    </section>
+
+    <footer id="footer">
+        <h2>Restraunt &copy; all rights reserved +961 01-123456</h2>
+    </footer>
+</body>
+</html> 

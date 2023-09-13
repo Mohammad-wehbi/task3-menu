@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-size: 20px;
+
+}   
+
+/*navigation bar style*/
+.menu-list-div{
+    position: fixed;
+    background: white;
+    height: 55px;
+    width: 100%;
+    color: #000;
+    opacity: 80%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nav-logo{
+    position: fixed;
+    color: #000;
+    font-size: 20px;
+    float: left;
+    margin-left: 60px;
+    line-height: 55px;
+    font-weight: bold;
+    
+  }
+  
+  .crown-img2{
+    height: 37px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .nav-menu-ul{
+    order: 2;
+    display: flex;
+    text-align: center;
+    margin-left: 370px;
+  }
+  
+  
+  .menu-list-div ul li{
+    display: inline-block;
+    color: #000;
+    line-height: 55px;
+    padding: 0 20px;
+    
+  }
+  
+  .menu-list-div ul li a{
+    color: #000;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 15px;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+   .nav-menu-ul a:hover{
+    background: #16a083;
+  }
+  
+  @media (max-width: 952px){
+    label.nav-logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    menu-list-div ul li a{    
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 80px;
+      left: 0;
+      text-align: center;
+    }
+  
+    .menu-list-div ul li{
+      display: block;
+    }
+    .menu-list-div ul li a{
+      font-size: 20px;
+    }
+  
+  }/*end navigation bar style*/
+
+  /*table style*/
+table , td ,tr{    
+    border:1px solid black;
+    width: 50%;
+    border-radius: 10px;
+
+}
+th
+{
+  border-radius: 10px;
+  border-collapse: collapse;
+  
+}
+
+.order-calculate{
+padding: 100px;
+background-image: url(images/header-image2.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 1000px;
+}/*end table style*/
+
+.order-calculate h2{
+  margin-top: 30px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+
+ .photo img{
+  float: left;
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+} 
+
+.lor-text{
+  text-align: center;
+  margin-top:50px;
+  padding: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+
+.cal-btn{
+  margin-top: 20px;
+  background-color: #16a083;
+  border-style: none;
+  padding: 10px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cal-btn:hover{
+  background-color:#117964;
+}
+/*footer style*/
+#footer h2 {
+    text-align: center;
+    font-size: 15px;
+    max-width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    background-color: slategray;
+    font-family: "Poppins", sans-serif;
+  }/*end footer style*/
